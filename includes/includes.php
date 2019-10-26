@@ -8,9 +8,6 @@
 
         // include the User class.
         include_once 'includes/class/user.php';
-  
-        // include the Recipe class.
-        include_once 'includes/class/recipe.php';
 
         // include CSS Styles.
         include_once 'includes/php/styles.php';

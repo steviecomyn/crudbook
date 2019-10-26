@@ -1,6 +1,13 @@
 <?php
     // include the header.
     include 'includes/php/header.php';
+
+    // redirects User who aren't logged in.
+    if (empty($_SESSION))
+        {
+            header('Location: index.php');
+        }
+
 ?>
 
 <div class="container">
